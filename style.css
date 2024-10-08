@@ -1,0 +1,32 @@
+@font-face {
+    font-family: ;
+    src: url();
+    font-weight: 100
+}
+
+@font-face {
+    font-family: ;
+    src: url();
+    font-weight: 700;
+}
+
+.navigation {
+    display: flex;
+    gap: 10px;
+}
+
+.navigation button {
+    font-size: 18px;
+    color: #FF0070;
+    border: none;
+    background-color: transparent;
+    padding: 0 13px;
+}
+
+.navigation button:hover {
+    cursor: pointer;
+}
+
+.isActiveButton {
+    border: 1px solid #FF0070 !important;
+}
