@@ -1,18 +1,42 @@
 @font-face {
-    font-family: ;
-    src: url();
-    font-weight: 100
+    font-family: "IBMPlexMono-Regular";
+    src: url("fonts\IBMPlexMono-Regular.ttf");
 }
 
 @font-face {
-    font-family: ;
-    src: url();
-    font-weight: 700;
+    font-family: "IBMPlexMono-Bold";
+    src: url("fonts\IBMPlexMono-Bold.ttf");
+}
+
+.backgroundmain {
+    background-image: url(https://s3-alpha-sig.figma.com/img/dfd0/bdda/b7b566964fd701840768cd9eecd5ea42?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ADGkT7zF6jvk3rAiHXP3HkgCPUyxNV-gNgc9WULpkx5gOGcDsVOESATml~WECKtjIS-3F1C2OEt5UvHm9RRk8dVd-UXPErUwoJrtVg2bGKE7CFIPmP5x1hUVfjt-LBPZGS~QggWyIF3JhKH78W~PEsxPby25jChChFv2MTv8c7vZ1Ft5a2ZrjgqWpd7zWsRVsjINMk4fsv2UCJxoeCwcEYD4YGyd43wMuBK7p5wUAB8tdCgjGi6aXSvRHRnz~N4kUcPyGTxL5sFLVJq9yqTXHDwSSoPJpgsOzdyf2cN~rv2KbakKVOXB2Wm2gFHoShr6Mn4eg9uXxz21-JhqdrkP1g__);
+    width: 1024px;
+    height: 768px;
+}
+
+.backgroundline {
+
+    width: 984px;
+    height: 728px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+
 }
 
 .navigation {
     display: flex;
     gap: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    left: 13px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .navigation button {
@@ -21,6 +45,20 @@
     border: none;
     background-color: transparent;
     padding: 0 13px;
+    text-align: center;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+}
+
+.navigation p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FF0070;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    width: 33px;
 }
 
 .navigation button:hover {
@@ -29,4 +67,21 @@
 
 .isActiveButton {
     border: 1px solid #FF0070 !important;
+}
+
+h1 {
+
+    position: absolute;
+    left: 0px;
+    margin: 0;
+    padding-top: 192px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 157px;
+    line-height: 83%;
+    color: #DB00FF;
+    text-shadow: 4px 4px 0px #FF0070;
+    padding-left: 10px;
+
 }
