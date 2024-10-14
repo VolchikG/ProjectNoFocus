@@ -13,6 +13,13 @@ body {
     font-style: normal;
 }
 
+.mainback {
+    width: 1024px;
+    height: 51.9px;
+    background: #000028;
+    overflow: hidden;
+}
+
 .backgroundmain {
     background-image: url("background.png");
     width: 1024px;
@@ -51,7 +58,7 @@ body {
     left: 923px;
     top: 20px;
     color: #FF0070;
-    margin: 0px;
+    margin: 0;
 
 }
 
@@ -69,7 +76,7 @@ h1 {
     width: 759px;
     height: 130px;
     left: 10px;
-    margin: 0px;
+    margin: 0;
     padding-top: 189px;
 
     font-weight: 700;
@@ -97,52 +104,76 @@ h1 {
 
 }
 
-.text2 {
-    background: #000028;
-    width: 1024px;
-    height: 768px;
-}
-
-.text2 h2 {
-
-    width: 314.96px;
+.start {
+    width: 314px;
     height: 47px;
-    padding-left: 20px;
-    top: 0px;
+    display: flex;
+    color: rgba(255,0,111,1);
+    position: relative;
+    top: 0;
+    left: 20px;
+    font-weight: Bold;
     font-size: 18px;
-    line-height: 23px;
-    color: #FF0070;
+    text-align: left;
+    margin: 0;
+  }
 
-}
-
-.text2 p {
-
-    position: absolute;
-    width: 648.92px;
+.zagalovok {
+    width: 649px;
     height: 23px;
-    right: 20.19px;
-    top: 0px;
-
-    font-weight: 700;
+    background: rgba(255, 0, 111, 1);
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-weight: Bold;
     font-size: 18px;
-    line-height: 23px;
-
+    text-align: left;
     color: #000028;
-
-
-}
+  }
 
 .paragrav2 {
 
     position: absolute;
-    width: 9px;
-    height: 9px;
     left: 966px;
     top: 28px;
-    margin: 0px;
+    height:9px;
+    width:9px;
+    margin: 0;
+    filter:drop-shadow(0px 0px 4px);
+    border-radius:50%;
 
     background: #FF0070;
     box-shadow: 0px 0px 4px 2px #FF0070;
+}
+
+.ramka {
+
+    background: #000028;
+
+    width: 1024px;
+    height: 508px;
 
 }
 
+.colortext {
+    color: #F1B2CE;
+    line-height: 23.4px;
+    font-size: 18px;
+}
+
+.block {
+    width: 648.92px;
+    height: 244px;
+    position: absolute;
+    left: 335px;
+    top: 828px;
+}
+
+.block2 {
+    width: 648.92px;
+    height: 244px;
+    position: absolute;
+    left: 335px;
+    top: 1094px;
+}
